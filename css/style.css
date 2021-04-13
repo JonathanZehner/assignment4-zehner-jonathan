@@ -42,8 +42,9 @@
 -----------------------------------*/
 
 body {
-    font-family: helvetica, sans-serif;
+    background-image: image("../images/celestial-hands-notext-background.png");
     color: #161717;
+    font-family: helvetica, sans-serif;
     margin: 0 auto;
 
 }
@@ -97,4 +98,31 @@ nav ul {
 .top-right-menu ul li {
   display: inline-block;
   margin: 10px;
+}
+
+/*----------------------------------
+
+
+      Home Page Styling
+
+
+-----------------------------------*/
+.first {
+    top: 110px;
+    position: relative;
+    z-index: -1;
+}
+
+.first img {
+    border: 5px solid #A8A096;
+    position: relative;
+    margin: 10px 10%;
+    width: 80%;
+}
+
+.first-text {
+    border: 5px solid #a8a096;
+    position: relative;
+    margin: 0 10% 5px;
+    width: 80%;
 }
