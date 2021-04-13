@@ -42,19 +42,26 @@
 -----------------------------------*/
 
 body {
-    background-image: image("../images/celestial-hands-notext-background.png");
-    color: #161717;
-    font-family: helvetica, sans-serif;
-    margin: 0 auto;
+  background: #161717 url("../images/celestial-hands-notext-background.png") repeat-y fixed center;
+
+  color: #161717;
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
 }
 
 div {
+  background: white;
   border: 5px solid #a8a096;
   position: relative;
   margin: 0 10% 5px;
   width: 80%;
 }
 
+.small {
+  height: 100px;
+  object-fit: cover;
+  width: 100px;
+}
 /*----------------------------------
 
 
@@ -133,4 +140,18 @@ nav ul {
     position: relative;
     margin: 0 10% 5px;
     width: 80%;
+}
+
+.main {
+  position: relative;
+
+}
+
+aside {
+  background: white;
+  border: 5px solid #a8a096;
+  float: left;
+
+  margin: 5px 10px;
+  width: 275px;
 }
