@@ -1,0 +1,49 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*-------------------------------
+
+
+      Fonts
+
+
+--------------------------------*/
+
+@font-face {
+  font-family: 'amster-1';
+  src: url('fonts/amster-1.ttf');
+}
+
+@font-face {
+  font-family: 'amster-4';
+  src: url('fonts/amster-4.ttf');
+}
+
+@font-face {
+  font-family: 'opificio';
+  src: url('fonts/opificio.ttf');
+}
+
+@font-face {
+  font-family: 'optibank-gothic';
+  src: url('fonts/optibank-gothic.otf');
+}
+
+
+/*----------------------------------
+
+
+      Universal Styling
+
+
+-----------------------------------*/
+
+body {
+    font-family: helvetica, sans-serif;
+    color: #161717;
+    margin: 0 auto;
+
+}
