@@ -43,24 +43,44 @@
 
 body {
   background: #161717 url("../images/celestial-hands-notext-background.png") repeat-y fixed center;
-
   color: #161717;
-  font-family: helvetica, sans-serif;
-  margin: 0 auto;
+  font: normal 16px/1.5 'mr-eaves-xl-modern', 'opificio', sans-serif;
+
 }
 
 div {
-  background: white;
+  background: #ffffffc7;
   border: 5px solid #a8a096;
+  padding: 10px 20px;
   position: relative;
-  margin: 0 10% 5px;
+  margin: 0 auto;
   width: 80%;
 }
 
+.large {
+  width: 80%;
+  object-fit: contain;
+}
+
+.medium {
+  height: 250px;
+  width: auto;
+  object-fit: contain;
+}
+
 .small {
-  height: 100px;
+  height: 50px;
   object-fit: cover;
-  width: 100px;
+  width: 50px;
+}
+
+.logo {
+  width: 250px;
+}
+
+.align-center {
+  display: block;
+  margin: 0 auto;
 }
 /*----------------------------------
 
@@ -71,18 +91,16 @@ div {
 -----------------------------------*/
 
 header {
-  background: #d7bcb7b3;
+  background: #d7bcb7;
   padding: 15px 25px;
   position: fixed;
   width: 100%;
   z-index: 999;
 }
 
-.logo {
-  width: 250px;
-  position: fixed;
+header img {
+  position: absolute;
 }
-
 nav ul {
   list-style-type: none;
   text-decoration: none;
@@ -123,35 +141,45 @@ nav ul {
 
 -----------------------------------*/
 .first {
-    top: 110px;
-    position: relative;
-    z-index: -1;
-}
-
-.first img {
-    border: 5px solid #A8A096;
-    position: relative;
-    margin: 10px 10%;
-    width: 80%;
-}
-
-.first-text {
-    border: 5px solid #a8a096;
-    position: relative;
-    margin: 0 10% 5px;
-    width: 80%;
+  position: relative;
+  top: 120px;
+  width: 100%;
 }
 
 .main {
+  margin: 0 auto;
   position: relative;
-
+  top: 140px;
+  width: 900px;
 }
 
 aside {
-  background: white;
+  background: #ffffffc7;
   border: 5px solid #a8a096;
   float: left;
+  height: 660px;
+  padding: 100px 10px 10px;
+  text-align: center;
+  width: 15%;
+}
 
-  margin: 5px 10px;
-  width: 275px;
+.sidebar .logo {
+  width: 80%;
+}
+
+.sidebar img {
+  display: block;
+  margin: 0 auto;
+}
+
+.business-overview {
+  float: right;
+  height: 750px;
+  overflow: scroll;
+  width: 75%;
+}
+
+.testamonials {
+    top: 940px;
+    position: relative;
 }
