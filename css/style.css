@@ -14,22 +14,27 @@
 
 @font-face {
   font-family: 'amster-1';
-  src: url('fonts/amster-1.ttf');
+  src: url('../fonts/amster-1.ttf');
 }
 
 @font-face {
   font-family: 'amster-4';
-  src: url('fonts/amster-4.ttf');
+  src: url('../fonts/amster-4.ttf');
+}
+
+@font-face {
+  font-family: 'mr-dehaviland-reg';
+  src: url('../fonts/mr-dehaviland-reg.ttf');
 }
 
 @font-face {
   font-family: 'opificio';
-  src: url('fonts/opificio.ttf');
+  src: url('../fonts/opificio.ttf');
 }
 
 @font-face {
   font-family: 'optibank-gothic';
-  src: url('fonts/optibank-gothic.otf');
+  src: url('../fonts/optibank-gothic.otf');
 }
 
 
@@ -42,18 +47,17 @@
 -----------------------------------*/
 
 body {
-  background: #161717 url("../images/celestial-hands-notext-background.png") repeat-y fixed center;
+  background: #161717;
   color: #161717;
   font: normal 16px/1.5 'mr-eaves-xl-modern', 'opificio', sans-serif;
-
 }
 
 div {
-  background: #ffffffc7;
+  background: #fffffff2 url(../images/celestial-hands-notext-background.png) repeat fixed center;
   border: 5px solid #a8a096;
+  margin: 0 auto;
   padding: 10px 20px;
   position: relative;
-  margin: 0 auto;
   width: 80%;
 }
 
@@ -101,7 +105,7 @@ header {
 header img {
   position: absolute;
 }
-nav ul {
+nav ul li a{
   list-style-type: none;
   text-decoration: none;
 }
@@ -146,6 +150,12 @@ nav ul {
   width: 100%;
 }
 
+.first article {
+  background: #ffffffc7;
+  border-radius: 5px;
+  padding: 5px;
+}
+
 .main {
   margin: 0 auto;
   position: relative;
@@ -154,22 +164,54 @@ nav ul {
 }
 
 aside {
-  background: #ffffffc7;
+  background: #fffffff2 url(../images/celestial-hands-notext-background.png) repeat fixed center;
   border: 5px solid #a8a096;
   float: left;
-  height: 660px;
-  padding: 100px 10px 10px;
+  height: 750px;
+  padding: 10px;
   text-align: center;
   width: 15%;
 }
 
+aside img {
+    padding: 40px 0 5px;
+}
+
 .sidebar .logo {
-  width: 80%;
+  padding: 25px 0;
+  width: 100%;
 }
 
 .sidebar img {
   display: block;
   margin: 0 auto;
+}
+
+.sidebar-links {
+  background: #ffffffc7;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.sip-shop {
+  font: normal 16px/1.5 'mr-dehaviland-reg', 'opificio', serif;
+}
+
+.boutique {
+  font: normal 14px/1.5 'montserrat', sans-serif;
+}
+
+.rf {
+  font: normal 14px/1.5 'optibank-gothic', sans-serif;
+}
+
+.colorstreet {
+    font: normal 14px/1.5 'opificio', sans-serif;
+}
+
+.robin-nest {
+  font: normal 14px/1.5 'amster-4', cursive;
 }
 
 .business-overview {
@@ -179,7 +221,23 @@ aside {
   width: 75%;
 }
 
+.overview {
+  background: #ffffffc7;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.overview .small {
+  float: left;
+  padding: 10px 15px;
+}
+
+.overview p {
+  padding-bottom: 10px;
+}
+
 .testamonials {
-    top: 940px;
-    position: relative;
+  top: 940px;
+  position: relative;
 }
