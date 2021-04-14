@@ -146,7 +146,7 @@ nav ul li a{
 -----------------------------------*/
 .first {
   position: relative;
-  top: 120px;
+  top: 130px;
   width: 100%;
 }
 
@@ -159,8 +159,17 @@ nav ul li a{
 .main {
   margin: 0 auto;
   position: relative;
-  top: 140px;
-  width: 900px;
+  top: 145px;
+  width: 84.5%;
+  min-width: 875px;
+}
+
+.no-border {
+  border: none;
+  background: none;
+  width: 100%;
+  height: 780px;
+  padding: 0;
 }
 
 aside {
@@ -174,7 +183,7 @@ aside {
 }
 
 aside img {
-    padding: 40px 0 5px;
+  padding: 40px 0 5px;
 }
 
 .sidebar .logo {
@@ -207,7 +216,7 @@ aside img {
 }
 
 .colorstreet {
-    font: normal 14px/1.5 'opificio', sans-serif;
+  font: normal 14px/1.5 'opificio', sans-serif;
 }
 
 .robin-nest {
@@ -238,6 +247,44 @@ aside img {
 }
 
 .testamonials {
-  top: 940px;
+  top: 160px;
   position: relative;
+  clear: both;
+}
+
+.testamonials img {
+  display: block;
+  margin: 0 auto;
+}
+
+.testamonials div {
+  clear: both;
+}
+
+.testamonial-2 {
+  margin: 15px auto;
+}
+
+.description,
+.quote {
+  border: none;
+  background: #ffffffc7;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.form {
+  text-align: center;
+  top: 175px;
+}
+
+.form h2 {
+  background: #ffffffc7;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+footer {
+  background: #d7bcb7;
 }
