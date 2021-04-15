@@ -15,4 +15,10 @@ Spring 2021 / MMC5277 Web Design Principles
 
 I, *Jonathan A. Zehner*, have read the point deduction list and understand that I will lose points for missing items.
 
+
+
+
+
+
+## Designs by *Jonathan A. Zehner*
 ![Designs by Jonathan A. Zehner] (z-lettermark-rectangle-no-border.png)
