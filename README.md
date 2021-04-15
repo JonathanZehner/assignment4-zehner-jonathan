@@ -13,6 +13,10 @@ Spring 2021 / MMC5277 Web Design Principles
 5. Adobe Photoshop to convert AI files to useable image file types.
 6. Adobe XD to create the wireframes and stylesheet used to build the website.
 
+
+**Note:**
+After running code through the HTML and CSS validators, deamed errors eroneous for proper display of website.
+
 I, *Jonathan A. Zehner*, have read the point deduction list and understand that I will lose points for missing items.
 
 
