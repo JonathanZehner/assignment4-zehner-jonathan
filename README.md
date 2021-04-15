@@ -15,4 +15,4 @@ Spring 2021 / MMC5277 Web Design Principles
 
 I, *Jonathan A. Zehner*, have read the point deduction list and understand that I will lose points for missing items.
 
-![flyCOLLECTIVE Logo] (images/flycollective-logo.png)
+![Designs by Jonathan A. Zehner] (z-lettermark-rectangle-no-border.png)
