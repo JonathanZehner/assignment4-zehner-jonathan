@@ -21,4 +21,4 @@ I, *Jonathan A. Zehner*, have read the point deduction list and understand that 
 
 
 ## Designs by *Jonathan A. Zehner*
-![Designs by Jonathan A. Zehner] (z-lettermark-rectangle-no-border.png)
+![Designs by Jonathan A. Zehner](z-lettermark-rectangle-no-border.png)
