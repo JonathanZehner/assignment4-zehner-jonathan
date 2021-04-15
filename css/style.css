@@ -271,6 +271,10 @@ aside img {
   padding: 10px;
 }
 
+.kaz {
+  padding-left: 115px;
+}
+
 .testamonials {
   top: 160px;
   position: relative;
@@ -307,7 +311,6 @@ aside img {
   background: #ffffffc7;
   border-radius: 5px;
   padding: 5px;
-  text-align: center;
 }
 
 footer {
