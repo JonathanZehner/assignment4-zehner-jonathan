@@ -302,12 +302,13 @@ aside img {
   padding: 5px;
 }
 
-.form {
+.samples-form {
+  position: relative;
   text-align: center;
   top: 175px;
 }
 
-.form h2 {
+.samples-form h2 {
   background: #ffffffc7;
   border-radius: 5px;
   padding: 5px;
