@@ -157,109 +157,111 @@
     </section>
 
 <!-- Samples Request Form -->
-    <section class="samples-form">
+    <section>
+      <div class="container">
+        <h2>Samples Request Form</h2>
+        <p>Please fill out the form below and I will be in touch!</p>
 
-      <form name="Samples Request" method="post" action="">
-        <div class="first-name">
-          <label for="firstname" class="label_input_wrap">First Name</label>
-          <input type="text" name="firstname" id="firstname" placeholder="ex. John"/>
-        </div>
+        <form class="samplesrequest" name="samplesrequest" method="post" action="">
 
-        <div class="lastname">
-          <label for="lastname" class="label_input_wrap">Last Name</label>
-          <input type="text" name="lastname" id="lastname" placeholder="ex. Smith"/>
-        </div>
+          <div class="firstname input-section">
+            <label for="firstname" class="label_input_wrap">First Name</label>
+            <input type="text" name="firstname" id="firstname" placeholder="ex. John"/>
+          </div>
 
-        <div class="email">
-          <label for="email" class="label_input_wrap">Email</label>
-          <input type="email" name="email" id="email" placeholder="j.smith@example.com" />
-        </div>
+          <div class="lastname input-section">
+            <label for="lastname" class="label_input_wrap">Last Name</label>
+            <input type="text" name="lastname" id="lastname" placeholder="ex. Smith"/>
+          </div>
 
-        <div class="telephone">
-          <label for="telephone" class="label_input_wrap">Telephone</label>
-          <input type="tel" name="telephone" id="telephone" placeholder="123-456-7890" />
-        </div>
+          <div class="email input-section">
+            <label for="email" class="label_input_wrap">Email</label>
+            <input type="email" name="email" id="email" placeholder="j.smith@example.com" />
+          </div>
 
-<!-- Checkbox Form:
+          <div class="telephone input-section">
+            <label for="telephone" class="label_input_wrap">Telephone</label>
+            <input type="tel" name="telephone" id="telephone" placeholder="123-456-7890" />
+          </div>
 
-        <div class="checkbox">
-          <h3>Product Line:</h3>
-          <input type="checkbox" name="product-line" value="green-compass" id="green-compass"><label for="green-compass">Green Compass Global</label>
-          <input type="checkbox" name="product-line" value="rf" id="rf"><label for="rf">Rodan + Fields</label>
-          <input type="checkbox" name="product-line" value="colorstreet" id="colorstreet"><label for="colorstreet">ColorStreet</label>
-        </div>
+  <!-- Checkbox Form:
 
--->
+          <div class="checkbox">
+            <h3>Product Line:</h3>
+            <input type="checkbox" name="product-line" value="green-compass" id="green-compass"><label for="green-compass">Green Compass Global</label>
+            <input type="checkbox" name="product-line" value="rf" id="rf"><label for="rf">Rodan + Fields</label>
+            <input type="checkbox" name="product-line" value="colorstreet" id="colorstreet"><label for="colorstreet">ColorStreet</label>
+          </div>
 
-        <div class="radiobutton">
-          <h3>Product Line:</h3>
-          <input type="radio" name="product-line" value="green-compass" id="green-compass" /><label for="green-compass">Green Compass Global</label>
-          <input type="radio" name="product-line" value="rf" id="rf" /><label for="rf">Rodan + Fields</label>
-          <input type="radio" name="product-line" value="colorstreet" id="colorstreet" /><label for="colorstreet">ColorStreet</label>
-        </div>
+  -->
 
-        <div class="dropdown">
-          <label for="gcg" class="label_input_wrap">CBD Product Samples</label>
-          <select name="gcg" id="gcg">
-            <option value="CBD">CBD Drops</option>
-            <option value="gummies" selected>CBD Gummies</option>
-            <option value="cream">Pain Cream</option>
-            <option value="lotion">Sooth Lotion</option>
-          </select>
-        </div>
+          <div class="radiobutton input-section">
+            <h3>Product Line:</h3>
+            <input type="radio" name="product-line" value="green-compass" id="green-compass" /><label for="green-compass">Green Compass Global</label>
+            <input type="radio" name="product-line" value="rf" id="rf" /><label for="rf">Rodan + Fields</label>
+            <input type="radio" name="product-line" value="colorstreet" id="colorstreet" /><label for="colorstreet">ColorStreet</label>
+          </div>
 
-        <div class="dropdown">
-          <label for="rf" class="label_input_wrap">Premium Skin Care Samples</label>
-          <select name="rf" id="rf">
-            <option value="sooth">Sooth Regimine</option>
-            <option value="redefine">Redefine Regimine</option>
-            <option value="cream">Pain Cream</option>
-            <option value="lotion">Sooth Lotion</option>
-          </select>
-        </div>
+          <div class="dropdown input-section">
+            <label for="gcg" class="label_input_wrap">CBD Product Samples</label>
+            <select name="gcg" id="gcg">
+              <option value="CBD">CBD Drops</option>
+              <option value="gummies" selected>CBD Gummies</option>
+              <option value="cream">Pain Cream</option>
+              <option value="lotion">Sooth Lotion</option>
+            </select>
+          </div>
 
-        <div class="colorpicker">
-          <label for="colorpicker">Select Your Favorite Color</label>
-          <input type="color" name="favcolor" id="colorpicker" value="#ff0000" />
-        </div>
+          <div class="dropdown input-section">
+            <label for="rf" class="label_input_wrap">Premium Skin Care Samples</label>
+            <select name="rf" id="rf">
+              <option value="sooth">Sooth Regimine</option>
+              <option value="redefine">Redefine Regimine</option>
+              <option value="cream">Pain Cream</option>
+              <option value="lotion">Sooth Lotion</option>
+            </select>
+          </div>
 
-        <div class="datepicker">
-          <label for="birthday">When is Your Birthday?</label>
-          <input type="date" name="birthday" id="birthday" value="#" />
-        </div>
+          <div class="colorpicker input-section">
+            <label for="colorpicker">Select Your Favorite Color</label>
+            <input type="color" name="favcolor" id="colorpicker" value="#ff0000" />
+          </div>
 
-        <div class="uploadfile">
-          <label for="uploadfile">Upload a File</label>
-          <input type="file" name="myfile" id="uploadfile" value="#" />
-        </div>
+          <div class="datepicker input-section">
+            <label for="birthday">When is Your Birthday?</label>
+            <input type="date" name="birthday" id="birthday" value="#" />
+          </div>
 
-        <div class="password">
-          <label for="password">Password</label>
-          <input type="password" name="pwd" id="password" maxlength="15"/>
-        </div>
+          <div class="uploadfile input-section">
+            <label for="uploadfile">Upload a File</label>
+            <input type="file" name="myfile" id="uploadfile" value="#" />
+          </div>
 
-        <div class="website">
-          <label for="website">Website</label>
-          <input type="url" name="homepage" value="website" />
-        </div>
+          <div class="password input-section">
+            <label for="password">Password</label>
+            <input type="password" name="pwd" id="password" maxlength="15"/>
+          </div>
+
+          <div class="website input-section">
+            <label for="website">Website</label>
+            <input type="url" name="homepage" value="website" />
+          </div>
 
 
-        <div class="comments">
-          <label for="comments" class="label_input_wrap">Comments</label>
-          <textarea name="comments" id="comments" cols="55" rows="10" placeholder="Please let me know what your needs are..."></textarea>
-        </div>
+          <div class="comments input-section">
+            <label for="comments" class="label_input_wrap">Comments</label>
+            <textarea name="comments" id="comments" cols="55" rows="10" placeholder="Please let me know what your needs are..."></textarea>
+          </div>
 
-        <div class="reset">
-          <input type="reset" value="Reset Form"/>
+          <div class="reset">
+            <input type="reset" value="Reset Form"/>
+          </div>
 
-        </div>
-
-        <div class="submit">
-          <input type="submit" value="Send me a message!"/>
-
-        </div>
-
-      </form>
+          <div class="submit">
+            <input type="submit" value="Send me a message!"/>
+          </div>
+        </form>
+      </div>
     </section>
 <!-- Samples Request Form end -->
 

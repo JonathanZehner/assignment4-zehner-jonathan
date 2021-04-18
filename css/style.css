@@ -301,17 +301,94 @@ aside img {
   border-radius: 5px;
   padding: 5px;
 }
+.firstname,
+.lastname,
+.email,
+.telephone,
+.radiobutton,
+.dropdown,
+.colorpicker,
+.datepicker,
+.uploadfile,
+.password,
+.website,
+.comments,
+.reset,
+.submit {
+  background-image: none;
+  background: #9783AA;
+  border: 0;
+}
 
-.samples-form {
+.container {
+  background: #fffffff2 url(../images/celestial-hands-notext-background.png) repeat fixed center;
+  border: 5px solid #a8a096;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 10px 20px;
   position: relative;
   text-align: center;
   top: 175px;
+  width: 80%;
 }
 
-.samples-form h2 {
+.container h2,
+.container p {
   background: #ffffffc7;
   border-radius: 5px;
   padding: 5px;
+
+}
+
+.samplesrequest {
+  background: #9783AA;
+  border: 2px solid #a8a096;
+  border-radius: 5px;
+  color: white;
+  margin: 20px auto;
+  max-width: 750px;
+  text-align: left;
+
+}
+
+.label_input_wrap {
+  display: block;
+}
+
+.reset input,
+.submit input {
+  background: aliceblue;
+  padding: 5px 20px;
+}
+
+.reset,
+.submit {
+  display: inline;
+}
+
+.input-section {
+  margin-bottom: 10px;
+}
+
+input {
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+textarea {
+  border-radius: 3px;
+    font-family: 'mr-eaves-xl-modern';
+    padding: 10px;
+}
+
+select {
+    width: 170px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+label {
+  font-weight: bold;
 }
 
 footer {
