@@ -19,6 +19,17 @@ body {
   font: normal 16px/1.5 'mr-eaves-xl-modern', 'opificio', sans-serif;
 }
 
+
+div {
+  background: #fffffff2 url(../images/celestial-hands-notext-background.png) repeat fixed center;
+  border: 5px solid #a8a096;
+  margin: 0 auto;
+  padding: 10px 20px;
+  position: absolute;
+  top: 40%;
+  width: 80%;
+}
+
 .small {
   height: 50px;
   object-fit: cover;
@@ -58,7 +69,6 @@ header {
   background: #d7bcb7;
   padding: 15px 25px;
   position: fixed;
-  top: 80%;
   width: 100%;
   z-index: 999;
 }
@@ -100,15 +110,6 @@ nav ul li a{
 }
 /*-- header end --*/
 
-div {
-  background: #fffffff2 url(../images/celestial-hands-notext-background.png) repeat fixed center;
-  border: 5px solid #a8a096;
-  margin: 0 auto;
-  padding: 10px 20px;
-  position: absolute;
-  top: 40%;
-  width: 80%;
-}
 
 /*-- footer begin --*/
 
