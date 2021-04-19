@@ -1,4 +1,4 @@
-<style>
+<style media="screen">
 * {
   border: 0;
   margin: 0;

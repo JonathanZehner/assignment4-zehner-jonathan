@@ -5,20 +5,6 @@
   padding: 0;
 }
 
-/*-------------------------------
-
-
-      Fonts
-
-
---------------------------------*/
-
-@font-face {
-  font-family: 'amster-1';
-  src: url('../fonts/amster-1.ttf');
-}
-
-
 /*----------------------------------
 
 
@@ -28,27 +14,19 @@
 -----------------------------------*/
 
 body {
-  background: #161717;
+  background: #161717c7;
   color: #161717;
   font: normal 16px/1.5 'mr-eaves-xl-modern', 'opificio', sans-serif;
 }
 
-div {
-  background: #fffffff2 url(../images/celestial-hands-notext-background.png) repeat fixed center;
-  border: 5px solid #a8a096;
-  margin: 0 auto;
-  padding: 10px 20px;
-  position: relative;
-  width: 80%;
+.small {
+  height: 50px;
+  object-fit: cover;
+  width: 50px;
 }
 
 .logo {
   width: 250px;
-}
-
-.align-center {
-  display: block;
-  margin: 0 auto;
 }
 
 a {
@@ -74,18 +52,13 @@ a:hover {
   transition: .2s;
 }
 
-/*----------------------------------
-
-
-      Header Styling
-
-
------------------------------------*/
+/*-- Header Styling --*/
 
 header {
   background: #d7bcb7;
   padding: 15px 25px;
   position: fixed;
+  top: 80%;
   width: 100%;
   z-index: 999;
 }
@@ -125,12 +98,25 @@ nav ul li a{
   display: inline-block;
   margin: 10px;
 }
+/*-- header end --*/
+
+div {
+  background: #fffffff2 url(../images/celestial-hands-notext-background.png) repeat fixed center;
+  border: 5px solid #a8a096;
+  margin: 0 auto;
+  padding: 10px 20px;
+  position: absolute;
+  top: 40%;
+  width: 80%;
+}
+
+/*-- footer begin --*/
 
 footer {
-    background: #d7bcb7;
-    position: relative;
-    height: 150px;
-    top: 180px;
+  background: #d7bcb7;
+  position: relative;
+  height: 150px;
+  top: 80%;
 }
 
 footer .small {
@@ -186,7 +172,7 @@ address a {
     line-height: 1.2;
     margin: 3px auto;
 }
-
+/*-- footer end --*/
 </style>
 
 <body>
@@ -199,10 +185,10 @@ address a {
     <nav class="nav-bar">
       <section class="main-menu">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Boutique</a></li>
-          <li><a href="#">Health</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="boutique.html">Boutique</a></li>
+          <li><a href="health.html">Health</a></li>
         </ul>
       </section>
 
@@ -215,13 +201,14 @@ address a {
       </section>
     </nav>
   </header>
-		<div class="container">
+
+	<div class="container">
 
 
-			<h1>Missing fields</h1>
-			<p>Sorry, you have not completed all of the required fields.</p>
-			<p>Please hit <a href="#" onClick="history.go(-1)">back</a> and complete the following required fields.</p>
-		</div>
+		<h1>Missing fields</h1>
+		<p>Sorry, you have not completed all of the required fields.</p>
+		<p>Please hit <a href="#" onClick="history.go(-1)">back</a> and complete the following required fields.</p>
+	</div>
 
 
 
