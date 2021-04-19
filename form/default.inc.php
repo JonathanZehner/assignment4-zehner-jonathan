@@ -5,20 +5,6 @@
   padding: 0;
 }
 
-/*-------------------------------
-
-
-      Fonts
-
-
---------------------------------*/
-
-@font-face {
-  font-family: 'amster-1';
-  src: url('../fonts/amster-1.ttf');
-}
-
-
 /*----------------------------------
 
 
@@ -39,16 +25,12 @@ div {
   margin: 0 auto;
   padding: 10px 20px;
   position: relative;
+  top: 40%;
   width: 80%;
 }
 
 .logo {
   width: 250px;
-}
-
-.align-center {
-  display: block;
-  margin: 0 auto;
 }
 
 a {
@@ -74,18 +56,13 @@ a:hover {
   transition: .2s;
 }
 
-/*----------------------------------
-
-
-      Header Styling
-
-
------------------------------------*/
+/*-- Header Styling --*/
 
 header {
   background: #d7bcb7;
   padding: 15px 25px;
   position: fixed;
+  top: 80%;
   width: 100%;
   z-index: 999;
 }
@@ -125,12 +102,15 @@ nav ul li a{
   display: inline-block;
   margin: 10px;
 }
+/*-- header end --*/
+
+/*-- footer begin --*/
 
 footer {
-    background: #d7bcb7;
-    position: relative;
-    height: 150px;
-    top: 180px;
+  background: #d7bcb7;
+  position: relative;
+  height: 150px;
+  top: 80%;
 }
 
 footer .small {
@@ -186,7 +166,7 @@ address a {
     line-height: 1.2;
     margin: 3px auto;
 }
-
+/*-- footer end --*/
 </style>
 
 <body>
@@ -199,10 +179,10 @@ address a {
     <nav class="nav-bar">
       <section class="main-menu">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Boutique</a></li>
-          <li><a href="#">Health</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="boutique.html">Boutique</a></li>
+          <li><a href="health.html">Health</a></li>
         </ul>
       </section>
 
@@ -216,7 +196,7 @@ address a {
     </nav>
   </header>
 
-  <div class="container">
+  <div>
     <h1>Sorry, something went wrong with your submission</h1>
     <p>Please try again</p>
   </div>
