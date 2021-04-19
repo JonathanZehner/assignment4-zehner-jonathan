@@ -520,7 +520,7 @@ address a {
     line-height: 1.2;
     margin: 3px auto;
 }
-
+/*--
 .birds {
     border: none;
     background-image: none;
@@ -535,7 +535,7 @@ address a {
       Animations
 
 
------------------------------------*/
+---------------------------------
 
 .bird {
   background: none;
