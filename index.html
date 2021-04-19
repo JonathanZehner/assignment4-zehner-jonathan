@@ -202,7 +202,7 @@
             <input type="radio" name="product-line" value="colorstreet" id="colorstreet" /><label for="colorstreet">ColorStreet</label>
           </div>
 
-          <div class="dropdown input-section">
+          <div class="dropdown input-section gc">
             <label for="gcg" class="label_input_wrap">CBD Product Samples</label>
             <select name="gcg" id="gcg">
               <option value="CBD">CBD Drops</option>
@@ -215,28 +215,27 @@
           <div class="dropdown input-section">
             <label for="rf" class="label_input_wrap">Premium Skin Care Samples</label>
             <select name="rf" id="rf">
-              <option value="sooth">Sooth Regimine</option>
-              <option value="redefine">Redefine Regimine</option>
-              <option value="cream">Pain Cream</option>
-              <option value="lotion">Sooth Lotion</option>
+              <option value="sooth">Body Cream</option>
+              <option value="redefine" selected>Mini Facial</option>
+              <option value="cream">Eye Cream</option>
+              <option value="lotion">Microderm Abrasion Paste</option>
+              <option value="lotion">Skin Clearing Foundation</option>
             </select>
           </div>
+
+<!--
 
           <div class="colorpicker input-section">
             <label for="colorpicker">Select Your Favorite Color</label>
             <input type="color" name="favcolor" id="colorpicker" value="#ff0000" />
           </div>
-
+-->
           <div class="datepicker input-section">
-            <label for="birthday">When is Your Birthday?</label>
+            <label for="birthday" class="label_input_wrap">When is Your Birthday?</label>
             <input type="date" name="birthday" id="birthday" value="#" />
           </div>
 
-          <div class="uploadfile input-section">
-            <label for="uploadfile">Upload a File</label>
-            <input type="file" name="myfile" id="uploadfile" value="#" />
-          </div>
-
+<!--
           <div class="password input-section">
             <label for="password">Password</label>
             <input type="password" name="pwd" id="password" maxlength="15"/>
@@ -246,11 +245,16 @@
             <label for="website">Website</label>
             <input type="url" name="homepage" value="website" />
           </div>
-
+-->
 
           <div class="comments input-section">
-            <label for="comments" class="label_input_wrap">Comments</label>
-            <textarea name="comments" id="comments" cols="55" rows="10" placeholder="Please let me know what your needs are..."></textarea>
+            <label for="comments" class="label_input_wrap">Comments:</label>
+            <textarea name="comments" id="comments" placeholder="Please let me know what your needs are and feel free to upload a picture to help me determine your skincare needs..."></textarea>
+          </div>
+
+          <div class="uploadfile input-section">
+            <label for="uploadfile" class="label_input_wrap">Upload a File</label>
+            <input type="file" name="myfile" id="uploadfile" value="#" />
           </div>
 
           <div class="reset">

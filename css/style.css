@@ -301,24 +301,6 @@ aside img {
   border-radius: 5px;
   padding: 5px;
 }
-.firstname,
-.lastname,
-.email,
-.telephone,
-.radiobutton,
-.dropdown,
-.colorpicker,
-.datepicker,
-.uploadfile,
-.password,
-.website,
-.comments,
-.reset,
-.submit {
-  background-image: none;
-  background: #9783AA;
-  border: 0;
-}
 
 .container {
   background: #fffffff2 url(../images/celestial-hands-notext-background.png) repeat fixed center;
@@ -341,14 +323,95 @@ aside img {
 }
 
 .samplesrequest {
-  background: #9783AA;
+  background: #9783AA8f;
   border: 2px solid #a8a096;
   border-radius: 5px;
   color: white;
+  height: 600px;
   margin: 20px auto;
-  max-width: 750px;
+  max-width: 90%;
+  min-width: 750px;
   text-align: left;
 
+}
+
+.firstname,
+.lastname,
+.email,
+.telephone,
+.radiobutton,
+.dropdown,
+.colorpicker,
+.datepicker,
+.uploadfile,
+.password,
+.website,
+.comments,
+.reset,
+.submit {
+  background: #9783AA00;
+  border: 0;
+}
+
+.firstname,
+.lastname,
+.email,
+.telephone {
+  float: left;
+  width: 30%;
+  margin: 20px auto;
+  max-width: 180px;
+}
+
+.radiobutton {
+  border-top: 1px solid #161717;
+  border-bottom: 1px solid #161717;
+  clear: both;
+  margin: 0 auto;
+  text-align: center;
+  width: 840px;
+}
+
+.radiobutton label {
+  padding-left: 5px;
+  padding-right: 15px;
+}
+
+.dropdown,
+.datepicker {
+  float: left;
+  margin: 0 6px;
+  width: 245px;
+  text-align: center;
+}
+
+.firstname,
+.gc,
+.uploadfile,
+.reset {
+  margin-left: 10px;
+}
+
+.firstname,
+.gc {
+  text-align: left;
+}
+
+.lastname,
+.email {
+  text-align: center;
+}
+
+.telephone,
+.datepicker {
+  text-align: right;
+}
+
+.comments {
+  border-top: 1px solid #161717;
+  clear: both;
+  margin-left: 10px;
+  width: 93%;
 }
 
 .label_input_wrap {
@@ -358,12 +421,15 @@ aside img {
 .reset input,
 .submit input {
   background: aliceblue;
+  box-shadow: 1px 1px 6px #161717;
   padding: 5px 20px;
 }
 
 .reset,
 .submit {
   display: inline;
+  float: right;
+  width: 150px;
 }
 
 .input-section {
@@ -373,12 +439,15 @@ aside img {
 input {
     padding: 5px 10px;
     border-radius: 3px;
+    font-family: 'mr-eaves-xl-modern';
 }
 
 textarea {
   border-radius: 3px;
-    font-family: 'mr-eaves-xl-modern';
-    padding: 10px;
+  font-family: 'mr-eaves-xl-modern';
+  padding: 10px;
+  width: 75%;
+  height: 100px;
 }
 
 select {
