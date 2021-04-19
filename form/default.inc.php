@@ -1,4 +1,4 @@
-<style media="screen">
+<style>
 * {
   border: 0;
   margin: 0;
@@ -14,19 +14,15 @@
 -----------------------------------*/
 
 body {
-  background: #161717;
+  background: #161717c7;
   color: #161717;
   font: normal 16px/1.5 'mr-eaves-xl-modern', 'opificio', sans-serif;
 }
 
-div {
-  background: #fffffff2 url(../images/celestial-hands-notext-background.png) repeat fixed center;
-  border: 5px solid #a8a096;
-  margin: 0 auto;
-  padding: 10px 20px;
-  position: relative;
-  top: 40%;
-  width: 80%;
+.small {
+  height: 50px;
+  object-fit: cover;
+  width: 50px;
 }
 
 .logo {
@@ -103,6 +99,16 @@ nav ul li a{
   margin: 10px;
 }
 /*-- header end --*/
+
+div {
+  background: #fffffff2 url(../images/celestial-hands-notext-background.png) repeat fixed center;
+  border: 5px solid #a8a096;
+  margin: 0 auto;
+  padding: 10px 20px;
+  position: absolute;
+  top: 40%;
+  width: 80%;
+}
 
 /*-- footer begin --*/
 
